@@ -92,8 +92,9 @@ export default function Home() {
               </p>
               <br />
               <p className="text-justify">
-                See if you can jailbreak the AI by giving it a prompt it's not
-                supposed to handle.
+                {
+                  "See if you can jailbreak the AI by giving it a prompt it's not supposed to handle."
+                }
               </p>
             </div>
           </div>
