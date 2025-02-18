@@ -82,12 +82,6 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
 
-      - name: Disable Jekyll processing
-        run: touch out/.nojekyll
-
-      - name: Add CNAME file to ./out folder
-        run: echo ${{ steps.deployment.outputs.page_url }} > out/CNAME
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
