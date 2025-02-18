@@ -1,12 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  assetPrefix:
-    process.env.NODE_ENV === "production" ? "/prompt-jailbreaker/" : "",
+  assetPrefix: "/prompt-jailbreaker/",
   images: {
     unoptimized: true,
   },
-  basePath: process.env.NODE_ENV === "production" ? "/prompt-jailbreaker" : "",
+  basePath: "/prompt-jailbreaker",
 };
 
 export default nextConfig;
