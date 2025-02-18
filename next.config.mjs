@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: "export",
-  assetPrefix: "/prompt-jailbreaker/",
+  assetPrefix: "",
   images: {
     unoptimized: true,
   },
-  basePath: "/prompt-jailbreaker",
+  basePath: "",
 };
 
 export default nextConfig;
