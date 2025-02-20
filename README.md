@@ -6,6 +6,8 @@ models. This version is inspired by the work of
 [John Hughes and collaborators](https://jplhughes.github.io/bon-jailbreaking/)
 .
 
+- Demo: [https://bestofn.vetonce.com/](https://bestofn.vetonce.com/)
+
 - Best-Of-N prompt gen lib: [src/lib/prompt-jbgen](./src/lib/prompt-jbgen)
 
 #### Workflow
