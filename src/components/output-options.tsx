@@ -61,7 +61,7 @@ export function OutputOptions({
                     />
                   </FormControl>
                   <div className="space-y-1 leading-none">
-                    <FormLabel>Change case</FormLabel>
+                    <FormLabel>Изменять регистр</FormLabel>
                   </div>
                 </FormItem>
               )}
@@ -78,7 +78,7 @@ export function OutputOptions({
                     />
                   </FormControl>
                   <div className="space-y-1 leading-none">
-                    <FormLabel>Shuffle letters</FormLabel>
+                    <FormLabel>Перетасовывать буквы</FormLabel>
                   </div>
                 </FormItem>
               )}
@@ -95,7 +95,7 @@ export function OutputOptions({
                     />
                   </FormControl>
                   <div className="space-y-1 leading-none">
-                    <FormLabel>Replace letters</FormLabel>
+                    <FormLabel>Заменять буквы</FormLabel>
                   </div>
                 </FormItem>
               )}
