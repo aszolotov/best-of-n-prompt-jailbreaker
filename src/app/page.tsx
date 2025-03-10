@@ -74,12 +74,10 @@ export default function Home() {
           <div className="flex items-center justify-center">
             <div className="w-2/3">
               <h1 className="text-3xl font-bold mb-4">
-                Best-of-N Jailbreaking Prompt Generator
+                Best-of-N Jailbreaking генератор промптов (Prompt Generator)
               </h1>
               <p className="text-justify">
-                This application implements the Best-of-N Jailbreaking (BoN)
-                method, which focuses on exploiting vulnerabilities in AI
-                models. This version is inspired by the work of{" "}
+               Это приложение реализует лучший из существующих методов джейлбрейка (BoN), который фокусируется на использовании уязвимостей в моделях искусственного интеллекта. Эта версия основана на работе{" "}
                 <a
                   className="text-blue-300 underline"
                   href="https://jplhughes.github.io/bon-jailbreaking/"
@@ -93,7 +91,7 @@ export default function Home() {
               <br />
               <p className="text-justify">
                 {
-                  "See if you can jailbreak the AI by giving it a prompt it's not supposed to handle."
+                  "Посмотрите, сможете ли вы сделать джейлбрейк искусственного интеллекта, выдав ему запрос, который он не должен обрабатывать.."
                 }
               </p>
             </div>
